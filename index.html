@@ -1,0 +1,33 @@
+
+<!-- Testing Adaptive Smooth Streaming with Mpeg Dash and dash.js -->
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<title>Adaptive Smooth Streaming</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script src="http://cdn.dashjs.org/latest/dash.all.min.js"></script>
+		
+		<style>
+			video {
+			   width: 640px;
+			   height: 360px;
+			}
+		</style>
+		
+	</head>
+  
+	<body>
+
+	   <div>
+		   <video data-dashjs-player autoplay src="https://c60a.wpc.azureedge.net/80C60A/curzoncontent/d28a010e-1f5e-4352-b1c8-7cd1eabc204c/CRZ_VICTORIA_TRAILER.ism/manifest(format=mpd-time-csf)" controls></video>
+	   </div>
+	
+	</body>
+	
+</html>
